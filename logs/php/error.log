@@ -1,0 +1,35 @@
+[07-Dec-2021 08:36:42 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php on line 84
+[07-Dec-2021 08:36:42 UTC] PHP Stack trace:
+[07-Dec-2021 08:36:42 UTC] PHP   1. {main}() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:0
+[07-Dec-2021 08:36:42 UTC] PHP   2. require() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:17
+[07-Dec-2021 08:36:42 UTC] PHP   3. require_once() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[07-Dec-2021 08:36:42 UTC] PHP   4. include() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[07-Dec-2021 08:36:42 UTC] PHP   5. str_replace() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php:84
+[07-Dec-2021 08:36:43 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php on line 84
+[07-Dec-2021 08:36:43 UTC] PHP Stack trace:
+[07-Dec-2021 08:36:43 UTC] PHP   1. {main}() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:0
+[07-Dec-2021 08:36:43 UTC] PHP   2. require() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:17
+[07-Dec-2021 08:36:43 UTC] PHP   3. require_once() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[07-Dec-2021 08:36:43 UTC] PHP   4. include() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[07-Dec-2021 08:36:43 UTC] PHP   5. str_replace() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php:84
+[07-Dec-2021 08:36:43 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php on line 84
+[07-Dec-2021 08:36:43 UTC] PHP Stack trace:
+[07-Dec-2021 08:36:43 UTC] PHP   1. {main}() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:0
+[07-Dec-2021 08:36:43 UTC] PHP   2. require() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:17
+[07-Dec-2021 08:36:43 UTC] PHP   3. require_once() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[07-Dec-2021 08:36:43 UTC] PHP   4. include() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[07-Dec-2021 08:36:43 UTC] PHP   5. str_replace() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php:84
+[07-Dec-2021 08:36:43 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php on line 84
+[07-Dec-2021 08:36:43 UTC] PHP Warning:  str_replace() expects at least 3 parameters, 1 given in /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php on line 84
+[07-Dec-2021 08:36:43 UTC] PHP Stack trace:
+[07-Dec-2021 08:36:43 UTC] PHP Stack trace:
+[07-Dec-2021 08:36:43 UTC] PHP   1. {main}() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:0
+[07-Dec-2021 08:36:43 UTC] PHP   1. {main}() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:0
+[07-Dec-2021 08:36:43 UTC] PHP   2. require() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:17
+[07-Dec-2021 08:36:43 UTC] PHP   3. require_once() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[07-Dec-2021 08:36:43 UTC] PHP   2. require() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:17
+[07-Dec-2021 08:36:43 UTC] PHP   3. require_once() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[07-Dec-2021 08:36:43 UTC] PHP   4. include() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[07-Dec-2021 08:36:43 UTC] PHP   4. include() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[07-Dec-2021 08:36:43 UTC] PHP   5. str_replace() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php:84
+[07-Dec-2021 08:36:43 UTC] PHP   5. str_replace() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php:84
