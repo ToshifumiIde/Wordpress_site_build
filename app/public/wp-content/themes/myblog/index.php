@@ -20,12 +20,12 @@
 
   <!-- Custom styles for this template -->
   <link href="http://mysite.local/wp-content/themes/myblog/css/clean-blog.min.css" rel="stylesheet">
-<?php wp_head();?>
+  <?php wp_head(); ?>
 </head>
 
 <body>
 
-<!-- <?php echo date("Y"); ?> -->
+  <!-- <?php echo date("Y"); ?> -->
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
@@ -61,7 +61,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
             <h1>
-              Clean Blog <?php echo date("Y");?>
+              Clean Blog <?php echo date("Y"); ?>
             </h1>
             <span class="subheading">
               A Blog Theme by Start Bootstrap
@@ -76,8 +76,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <?php $lists_bool = have_posts()?>
-        <?php if($lists_bool):?>
+        <?php $lists_bool = have_posts() ?>
+        <?php if ($lists_bool) : ?>
           <div class="post-preview">
             <a href="post.html">
               <h2 class="post-title">
@@ -103,7 +103,8 @@
             </a>
             <p class="post-meta">Posted by
               <a href="#">Start Bootstrap</a>
-              on September 18, 2019</p>
+              on September 18, 2019
+            </p>
           </div>
           <hr>
           <div class="post-preview">
@@ -117,7 +118,8 @@
             </a>
             <p class="post-meta">Posted by
               <a href="#">Start Bootstrap</a>
-              on August 24, 2019</p>
+              on August 24, 2019
+            </p>
           </div>
           <hr>
           <div class="post-preview">
@@ -131,16 +133,17 @@
             </a>
             <p class="post-meta">Posted by
               <a href="#">Start Bootstrap</a>
-              on July 8, 2019</p>
+              on July 8, 2019
+            </p>
           </div>
           <hr>
           <!-- Pager -->
           <div class="clearfix">
             <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
           </div>
-        <?php else:?>
+        <?php else : ?>
           <p>記事が見つかりませんでした</p>
-        <?php endif;?>
+        <?php endif; ?>
       </div>
     </div>
   </div>
@@ -191,7 +194,7 @@
   <!-- Custom scripts for this template -->
   <script src="js/clean-blog.min.js"></script>
 
-  <?php wp_footer();?>
+  <?php wp_footer(); ?>
 </body>
 
 </html>
