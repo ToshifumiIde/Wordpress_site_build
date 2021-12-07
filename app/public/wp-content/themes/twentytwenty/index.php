@@ -19,6 +19,7 @@ get_header();
 
 <main id="site-content" role="main">
 
+<p>index.phpです</p>
 	<?php
 
 	$archive_title    = '';
