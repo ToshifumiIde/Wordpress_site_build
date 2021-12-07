@@ -33,3 +33,71 @@
 [07-Dec-2021 08:36:43 UTC] PHP   4. include() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
 [07-Dec-2021 08:36:43 UTC] PHP   5. str_replace() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php:84
 [07-Dec-2021 08:36:43 UTC] PHP   5. str_replace() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php:84
+[07-Dec-2021 09:30:52 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/classes/Backtrace.php on line 330
+[07-Dec-2021 09:30:52 UTC] PHP Stack trace:
+[07-Dec-2021 09:30:52 UTC] PHP   1. {main}() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:0
+[07-Dec-2021 09:30:52 UTC] PHP   2. require() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:17
+[07-Dec-2021 09:30:52 UTC] PHP   3. require_once() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[07-Dec-2021 09:30:52 UTC] PHP   4. include() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[07-Dec-2021 09:30:52 UTC] PHP   5. the_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php:85
+[07-Dec-2021 09:30:52 UTC] PHP   6. WP_Query->the_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/query.php:979
+[07-Dec-2021 09:30:52 UTC] PHP   7. WP_Query->next_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-query.php:3329
+[07-Dec-2021 09:30:52 UTC] PHP   8. QM_Collector_PHP_Errors->error_handler() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-query.php:3300
+[07-Dec-2021 09:30:52 UTC] PHP   9. QM_Backtrace->get_caller() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/collectors/php_errors.php:169
+[07-Dec-2021 09:30:52 UTC] PHP  10. QM_Backtrace->get_filtered_trace() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/classes/Backtrace.php:117
+[07-Dec-2021 09:30:52 UTC] PHP  11. array_map() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/classes/Backtrace.php:191
+[07-Dec-2021 09:30:52 UTC] PHP  12. QM_Backtrace->filter_trace() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/classes/Backtrace.php:191
+[07-Dec-2021 09:33:29 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/classes/Backtrace.php on line 65
+[07-Dec-2021 09:33:29 UTC] PHP Stack trace:
+[07-Dec-2021 09:33:29 UTC] PHP   1. {main}() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:0
+[07-Dec-2021 09:33:29 UTC] PHP   2. require() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:17
+[07-Dec-2021 09:33:29 UTC] PHP   3. require_once() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[07-Dec-2021 09:33:29 UTC] PHP   4. include() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[07-Dec-2021 09:33:29 UTC] PHP   5. the_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php:85
+[07-Dec-2021 09:33:29 UTC] PHP   6. WP_Query->the_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/query.php:979
+[07-Dec-2021 09:33:29 UTC] PHP   7. WP_Query->next_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-query.php:3329
+[07-Dec-2021 09:33:29 UTC] PHP   8. QM_Collector_PHP_Errors->error_handler() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-query.php:3300
+[07-Dec-2021 09:33:29 UTC] PHP   9. QM_Backtrace->__construct() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/collectors/php_errors.php:167
+[07-Dec-2021 09:33:29 UTC] PHP  10. array_merge() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/classes/Backtrace.php:65
+[07-Dec-2021 09:33:29 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-fatal-error-handler.php on line 72
+[07-Dec-2021 09:33:29 UTC] PHP Stack trace:
+[07-Dec-2021 09:33:29 UTC] PHP   1. {main}() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:0
+[07-Dec-2021 09:33:29 UTC] PHP   2. require() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:17
+[07-Dec-2021 09:33:29 UTC] PHP   3. require_once() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[07-Dec-2021 09:33:29 UTC] PHP   4. include() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[07-Dec-2021 09:33:29 UTC] PHP   5. the_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php:85
+[07-Dec-2021 09:33:29 UTC] PHP   6. WP_Query->the_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/query.php:979
+[07-Dec-2021 09:33:29 UTC] PHP   7. WP_Query->next_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-query.php:3329
+[07-Dec-2021 09:33:29 UTC] PHP   8. QM_Collector_PHP_Errors->error_handler() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-query.php:3300
+[07-Dec-2021 09:33:29 UTC] PHP   9. QM_Backtrace->__construct() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/collectors/php_errors.php:167
+[07-Dec-2021 09:33:29 UTC] PHP  10. array_merge() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/classes/Backtrace.php:65
+[07-Dec-2021 09:33:29 UTC] PHP  11. WP_Fatal_Error_Handler->handle() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-fatal-error-handler.php:0
+[07-Dec-2021 09:33:29 UTC] PHP  12. WP_Fatal_Error_Handler->detect_error() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-fatal-error-handler.php:40
+[07-Dec-2021 09:33:29 UTC] PHP  13. error_get_last() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-fatal-error-handler.php:72
+[07-Dec-2021 09:34:01 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/classes/Backtrace.php on line 60
+[07-Dec-2021 09:34:01 UTC] PHP Stack trace:
+[07-Dec-2021 09:34:01 UTC] PHP   1. {main}() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:0
+[07-Dec-2021 09:34:01 UTC] PHP   2. require() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:17
+[07-Dec-2021 09:34:01 UTC] PHP   3. require_once() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[07-Dec-2021 09:34:01 UTC] PHP   4. include() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[07-Dec-2021 09:34:01 UTC] PHP   5. the_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php:85
+[07-Dec-2021 09:34:01 UTC] PHP   6. WP_Query->the_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/query.php:979
+[07-Dec-2021 09:34:01 UTC] PHP   7. WP_Query->next_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-query.php:3329
+[07-Dec-2021 09:34:01 UTC] PHP   8. QM_Collector_PHP_Errors->error_handler() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-query.php:3300
+[07-Dec-2021 09:34:01 UTC] PHP   9. QM_Backtrace->__construct() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/collectors/php_errors.php:167
+[07-Dec-2021 09:34:01 UTC] PHP  10. debug_backtrace() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/classes/Backtrace.php:60
+[07-Dec-2021 09:34:01 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-fatal-error-handler.php on line 72
+[07-Dec-2021 09:34:01 UTC] PHP Stack trace:
+[07-Dec-2021 09:34:01 UTC] PHP   1. {main}() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:0
+[07-Dec-2021 09:34:01 UTC] PHP   2. require() /Users/idetoshifumi/Local Sites/mysite/app/public/index.php:17
+[07-Dec-2021 09:34:01 UTC] PHP   3. require_once() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-blog-header.php:19
+[07-Dec-2021 09:34:01 UTC] PHP   4. include() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/template-loader.php:106
+[07-Dec-2021 09:34:01 UTC] PHP   5. the_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php:85
+[07-Dec-2021 09:34:01 UTC] PHP   6. WP_Query->the_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/query.php:979
+[07-Dec-2021 09:34:01 UTC] PHP   7. WP_Query->next_post() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-query.php:3329
+[07-Dec-2021 09:34:01 UTC] PHP   8. QM_Collector_PHP_Errors->error_handler() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-query.php:3300
+[07-Dec-2021 09:34:01 UTC] PHP   9. QM_Backtrace->__construct() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/collectors/php_errors.php:167
+[07-Dec-2021 09:34:01 UTC] PHP  10. debug_backtrace() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-content/plugins/query-monitor/classes/Backtrace.php:60
+[07-Dec-2021 09:34:01 UTC] PHP  11. WP_Fatal_Error_Handler->handle() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-fatal-error-handler.php:0
+[07-Dec-2021 09:34:01 UTC] PHP  12. WP_Fatal_Error_Handler->detect_error() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-fatal-error-handler.php:40
+[07-Dec-2021 09:34:01 UTC] PHP  13. error_get_last() /Users/idetoshifumi/Local Sites/mysite/app/public/wp-includes/class-wp-fatal-error-handler.php:72

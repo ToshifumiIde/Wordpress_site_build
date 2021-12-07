@@ -81,7 +81,14 @@
           <div class="post-preview">
             <a href="post.html">
               <h2 class="post-title">
-                <?php $title = the_title(); ?>
+                <!-- <?php while (have_posts()) : ?>
+                  <?php the_post(); ?>
+                  <?php the_title(); ?>
+                <?php endwhile; ?> -->
+                <!-- 上記の書き方は下記に変更可能 -->
+                <?php while (have_posts()) : the_post() ?>
+                  <?php the_title() ?>
+                <?php endwhile; ?>
               </h2>
               <h3 class="post-subtitle">
                 Problems look mighty small from 150 miles up
